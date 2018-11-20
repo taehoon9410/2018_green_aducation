@@ -1,0 +1,49 @@
+<!DOCTYPE HTMEL>
+<html>
+<head>
+	<meta chearset ="utf-8">
+	<meta http-equiv="X-UA-Compatible" content = "IE=edge" >
+	<title>css레이아웃/선택자</title>
+    <style type = "text/css">
+     html,body{ margin:0;}
+      #wrap {width:800px ; height :auto;margin:0 auto ;}
+      #wrap>div{width: 100%}
+      #headBox{height:200px ; background-color:#aaa;}
+      h1{width: 50%;height:100px;  color :#fff; background-color:#743; margin:0;}
+      #headBox>p{width: 100% ; height : 70px;color: #333; background:#ccc; margin : 0 }	
+      #adbox{height:600px; background-color:#07f;}
+      #conbox{height:900px; background-color:#ccc;}
+        h2{width: 70%; height: 60px ;
+        	background-color:#fa0; color :555; margin: 0;}
+        #conbox>p{width:100%; height: 400px ; background-color : #aaf;color:#555;margin:0;}
+        #conbox>p.con_nar_01{background-color :#aaf;}
+        #conbox>p.con_nar_02{background-color : #c6c;}
+      #footbox{height : 100px; background-color : #333;}
+    </style>
+</head>
+
+<body>
+
+
+   <div id="wrap">
+       <!-- #headbox -->
+        <div id="headBox">
+        <h1>제목을 입력 </h1>
+        <p>간단한설명</p> 
+	   </div>
+	   <!--//headbox//-->
+	   <!--#adbox-->
+	 <div id="adbox"></div>
+      <!--#adbox-->
+      <!--#conbox-->
+     <div id="conbox">
+     <h2>내용 제목<h2>
+     	<p class="con_nar_01">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+     	<p class = "con_nar_02">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+     </div>
+     <!--//conbox//-->
+     <div id="footbox"></div>
+</div>
+</body>
+
+</html>
