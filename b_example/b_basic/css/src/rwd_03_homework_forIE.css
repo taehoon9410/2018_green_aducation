@@ -1,2 +1,27 @@
 /*rwd_03_homwork_forIE.css*/
 #wrap {margin:auto; ;width: 960px; height: 4000px; background-color: #faa;}
+h1{float: left; height: 100px; background-color: #0ff ;}
+.btn{float: left;height: 100px; background-color: #777;}
+
+/*commonArea===========================*/
+
+
+/*mob=====================================*/
+
+@media screen and (max-width:480px){
+  #wrap {width: 100%;background-color: #afa;}
+  h1{width: 30%;max-width: 200px}
+  .btn{width:30% ; max-width: 200px;}
+}
+
+
+/*tablet===========================*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+  #wrap {width: 100%;background-color: #acf;}
+}
+
+
+/*pc=================================*/
+@media screen and (min-width: 769px) and(max-width: 1366px) {
+  #wrap {width: 100%;background-color: #f50;}
+}
