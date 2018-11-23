@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*rwd_02.css*/
+
+#wrap {margin: auto;width: 100%;max-width: 960px; height: auto ; min-height: 400px;
+       transition:all 300ms linear; }
+  #headBox{width: 100% ;background-color: #333 }    
+  #conbox{width: 100%; background-color: #777;} 
+      h1{ transition: all 300ms ease-in;float: left; }
+  #sectionBox{width:100%;background-color:#577;}
+  #artBox{width:100%;background-color:#97e;}
+  #footBox{width:100%;background-color:#333;}
+ 
+
+
+
+/*mob---------------------------------------------*/
+
+@media screen and (max-width:480px){
+  #wrap{background-color:#fff;}
+  #headBox{height: 60px; }
+   #conBox{height:390px; }
+   h1{width: 174px; height: 42px;}
+  #sectionBox{height: 720px; }
+  #artBox{height: 720px; }
+  #footBox{height: 60px; }
+
+
+}
+/*mob end----------------------------------------*/
+
+/*tablet--------------------------------------------*/
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+}
+
+/*tablet end------------------------------------*/
+
+/*pc--------------------------------*/
+@media screen and (min-width: 769px) {
+}
+  
+
+  
+
+
+/*pc end-----------------------------------------*/
+
