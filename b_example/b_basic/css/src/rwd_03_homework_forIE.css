@@ -1,27 +1,63 @@
-/*rwd_03_homwork_forIE.css*/
-#wrap {margin:auto; ;width: 960px; height: 4000px; background-color: #faa;}
-h1{float: left; height: 100px; background-color: #0ff ;}
-.btn{float: left;height: 100px; background-color: #777;}
+@charset "UTF-8";
+
+/*rew_03_homework.css*/
+
 
 /*commonArea===========================*/
+/*warp==================================================*/
+#wrap{width: 100% ; height: auto ;min-height: 160px; background-color: #fa0;}
+
+/*headBox=======================================================*/
+#headBox{position:fixed; top: 0; left: 0; z-index: 500; width: 100%; height: 60px; background-color:#333;}
+ h1{float: left; width: 100px; height: 30px; background-color: #afa; }
+  #navBox{float: right; width: 60px ; height: 25px ;background-color: #afa}
 
 
-/*mob=====================================*/
+/*addBanner======================================================*/
+#addBanner{margin-top:60px; width: 100%; height:480px; 
+          background-color: #ba7; box-sizing: border-box;}
+
+/*infoBox========================================================*/
+#infoBox{width:100% ; background-color:#577; }
+
+/*contentbox===================================================*/
+#contentBox{width: 100%;background-color:#97e;}
+
+/*footBox=====================================================*/
+#footBox{width: 100%; height: 120px;background-color: #777;}
+
+
+/*mob 480 =====================================*/
 
 @media screen and (max-width:480px){
-  #wrap {width: 100%;background-color: #afa;}
-  h1{width: 30%;max-width: 200px}
-  .btn{width:30% ; max-width: 200px;}
-}
+/*device 기준크기는 : 480px 입니다*/
+  #wrap {background-color: #afa}
+  #headBox{height: 12.5vw;/* 60/480*100 */min-height: 40px;}
+  #addBanner{margin-top:12.5vw;/* 60/480*100 */height: 150vw;/*720/480*100*/ min-height: 480px;}
+  #infoBox{height: 150vw;/* 720/480*100 */ min-height: 480px;}
+  #contentBox{height: 150vw;/* 720/480*100 */ min-height: 480px;}
+  #footBox{height: 12.5vw;/* 60/480*100 */min-height:40px;}
+}/*===============mob end======================*/
 
 
-/*tablet===========================*/
+/*tablet 768 ===========================*/
 @media screen and (min-width: 481px) and (max-width: 768px){
-  #wrap {width: 100%;background-color: #acf;}
-}
+/*device 기준크기는 : 768px 입니다*/
+ #wrap {background-color: #acf}
+ #addBanner{height:58.59375vw;/* 450/768*100 */min-height: 400px;
+            max-height:450px;}
+ #infoBox{height: 27.34375vw; /* 210/768*100 */min-height:150px;
+         max-height:210px;}
+ #contentBox{height: 70.3125vw; /* 540/768*100 */min-height:450px; 
+             max-height: 450px;}
+}/*===============tablet end======================*/
 
 
-/*pc=================================*/
+/*pc 1366 =================================*/
 @media screen and (min-width: 769px) and(max-width: 1366px) {
-  #wrap {width: 100%;background-color: #f50;}
-}
+/*device 기준크기는 : 1366px 입니다*/
+ #wrap {background-color: #f50}
+ #addBanner{height: 32.942899vw; /* 450/1366*100 */ min-height: 1633px; }
+ #infoBox{height:210px;}
+ #contentBox{height: 540px;}
+}/*===============pc end======================*/
