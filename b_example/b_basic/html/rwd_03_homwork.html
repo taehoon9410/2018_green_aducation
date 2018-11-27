@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE-edge" />
   <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-cale3.0,minmum-scale=0.5">
+
+<!-- normal -->
   <link rel="stylesheet" href="../css/base/reset.css" />
   <link rel="stylesheet" href="../css/base/common.css" />
-  <link rel="stylesheet" href="../css/src/rwd_03_homework.css" />
+ <!-- normal end-->
+ <link rel="stylesheet" href="../css/src/menu_btn_01.css" />
   <!-- 조건부주석 - cc:ie6 -->
  <!--   [if lte ie 9]>
  <script src = "../ie/htmle5shiv/dist/html5shiv.min.js"></script>
@@ -32,23 +35,64 @@
   <!-- link:favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
 
-  <title>respondsive web homework</title>
-   <style>
-   </style>
+    <title>responsive web homework</title>
 </head>
-  <body>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <div class="container">
 
-  <!-- lay out -->
-  <div id = "wrap">
-    <h1>logo</h1>
-    <div class="btn"></div>
-  </div>
+        <h1>logo</h1>
+        <nav id="navBox">
+          <h2 class="hidden">navigation</h2>
+          <div class="sign_up hidden_wrap"><a href="#"><span>sign up</span></a></div>
+          <div class="menu hidden_wrap">
+            <h3 class="hidden">global navigation</h3>
+            <!-- *button  type="속성"  : submit, reset, button -->
+            <button type="button"><span>메뉴</span></button>
+
+            <div class="gnb">
+              <ul>
+                <li><a href="#"><span>link_01</span></a></li>
+                <li><a href="#"><span>link_02</span></a></li>
+                <li><a href="#"><span>link_03</span></a></li>
+                <li><a href="#"><span>link_04</span></a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+
+      </div>
+    </header><!-- // #headBox -->
+
+    <section id="addBanner">
+      <h2 class="hidden">웹페이지 광고영역</h2>      
+
+    </section><!-- // #addBanner -->
+
+    <article id="infoBox">
+      <h2 class="hidden">infoBox</h2>
+    </article><!-- // #infoBox -->
+
+    <article id="contentBox">
+      <h2 class="hidden">contentBox</h2>
+    </article><!-- // #contentBox -->
+
+    <footer id="footBox">
+      <div class="container">
+        <h2 class="hidden">footBox</h2>
+      </div>    
+    </footer><!-- // #footBox -->
+
+  </div><!-- // #wrap -->
   
 
   <!-- script(jQuery) -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
-  <script >
+  <script>
 
     (function($){})(jQuery);
   </script>

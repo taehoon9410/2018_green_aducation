@@ -1,0 +1,9 @@
+@charset "UTF-8";
+     /* reset.css */
+  html,body{margin: 0; width: 100%; height: 100%;}
+  h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dt,dd,dl{margin: 0; padding: 0;}
+  ul,ol,li{list-style: none}
+ a{color:#000; text-decoration:none;}
+  a:hover, a:focus{color:#50f; text-decoration:underline;
+    outline:3px solid #50f;}
+header,nav,aside,section,article,footer,main,figure{display:block;}

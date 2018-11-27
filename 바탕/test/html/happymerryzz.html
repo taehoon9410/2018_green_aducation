@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html lang="ko-KR">
+<head>  
+  <meta charset="UTF-8" />
+   <!-- meta:compat -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>position</title>
+  <style>
+     /* reset.css */
+  html,body{margin: 0; width: 100%; height: 100%;}
+  h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dt,dd,dl{margin: 0; padding: 0;}
+  ul,ol,li{list-style: none}
+ a{color:#000; text-decoration:none;}
+  a:hover, a:focus{color:#50f; text-decoration:underline;
+    outline:3px solid #50f;}
+header,nav,aside,section,article,footer,main,figure{display:block;}
+     /* common.css*/
+     .hidden{display:block;width: 0; height: 0; overflow: hidden; position:absolute; z-index: -100;}
+    .clearfix::after,.clearfix:after{content:""; display:block; width:0; height: 0; clear:both;}
+/*============css============*/
+ #wrap{width: 100%; height: 500%;background-image:linear-gradient(#acc,#07a);}
+   #headerBox{position: fixed;top: 0; left: 0;z-index: 500; width: 100%; height: 150px; background-color:#fa0; }
+     #asideBox{position: fixed; top: 200px; left: 50px;
+      width: 150px; height: 400px; background-color:#fff;border:2px solid #333;border-radius: 15px;} 
+/*----------------------------------------------------------------------- */
+
+
+  </style>  
+</head>
+ <body>
+  
+
+  <div id="wrap">
+    <div id ="headerBox"></div>
+    <div id="asideBox"></div>
+</div>
+
+ </body>
+</html>

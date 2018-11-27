@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html lang="ko-KR">
+<head>  
+  <meta charset="UTF-8" />
+   <!-- meta:compat -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>position</title>
+  <style>
+     /* reset.css */
+  html,body{margin: 0; width: 100%; height: 100%;}
+  h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dt,dd,dl{margin: 0; padding: 0;}
+  ul,ol,li{list-style: none}
+ a{color:#000; text-decoration:none;}
+  a:hover, a:focus{color:#50f; text-decoration:underline;
+    outline:3px solid #50f;}
+header,nav,aside,section,article,footer,main,figure{display:block;}
+     /* common.css*/
+     .hidden{display:block;width: 0; height: 0; overflow: hidden; position:absolute; z-index: -100;}
+    .clearfix::after,.clearfix:after{content:""; display:block; width:0; height: 0; clear:both;}
+/*============css============*/
+  h1{padding: 0.5rem; text-align: center; background-color:#0ac;
+     color:#fff;}
+     .position{margin:0 auto;padding: 25px 50px; box-sizing: border-box; width: 700px; height: 150px; background-color:#cc0;}
+     .position>ul{float:left;width: 100% ; height: :100%; background-color:#fff;}
+     .position li{float:left ; width: 100px; height: 100px; border: 1px solid #f07;box-sizing: border-box;text-align: center ; line-height: 100px;font-size: 1.3rem;color:#fff;}
+     .position .base{border-color: #ffa; background-color: #a4f;}
+     .position .static{border-color: #2fb; background-color: #b46;}
+     .position .fixed{border-color: #3ff; background-color: #c40;}
+     .position .absolute{border-color: #4fd; background-color: #d4a;}
+     .position .relative{border-color: #ffe; background-color: #e46;}
+/*----------------------------------------------------------------------- */
+/*static,fixed,absolute, relativ*/
+/*top, left ,right, bottom*/
+/*z-index*/
+body{height: 3000px;}
+.psition>ul{position: relative;}
+.static{position: static; top:0;right: 400px; z-index: -1000;}
+          /*아무런 변화가 없음*/
+.fixed{position: fixed; top:200; right: 45%;z-index: 100}/*브라우저 화면내에서 어디든*/
+.absolute{position: absolute; top:30px;right: 200px;z-index: 101}
+         /*fixed와 유사한 기능 하지만, 전부 같지는 않다 ,안따라옴 부모에따라
+         바뀜 */
+.relative{position: relative; top:50px;left:30px;}
+  
+
+  </style>  
+</head>
+ <body>
+  <h1>포지션의 기초내용 이해하기</h1> 
+  <div class="position">
+    <ul>
+      <li class= "base">base</li>
+      <li class= "static">static</li>
+      <li class= "fixed">fixed</li>
+      <li class= "absolute">absolute</li>
+      <li class= "relative">relative</li>
+      <li class= "base">base</li>
+    </ul>
+   </div>
+
+
+ </body>
+</html>
