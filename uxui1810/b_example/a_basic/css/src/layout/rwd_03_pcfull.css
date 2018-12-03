@@ -1,0 +1,20 @@
+/*rwd_03_pcfull.css*/
+
+@media screen and (min-width:1367px){
+/*=====================================*/
+#headBox{}
+#headBox>.container {max-width: 100%;width: 100%;}
+#headBox h1{width: 12.5rem; height: 100% }
+
+
+
+
+
+
+
+
+
+/*=====================================*/
+
+
+}/*pc full end*/
