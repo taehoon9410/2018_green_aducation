@@ -1,0 +1,46 @@
+/*nc_main_mobile.css*/
+
+/*mobile 480px=====================================================*/
+@media screen and (max-width:480px) {
+
+/*mob common======================*/
+#gnb{display: block; width: 0; height: 0; overflow: hidden;position:relative; z-index: -100;}
+
+/*mob common end====================*/
+
+#wrap{background-color: #ccc;}
+
+#headBox{padding: 2.5vw/*10/480*100*/7.083333vw 2.5vw 25.625vw
+        /*123/408*100*/; box-sizing: border-box;width: 100% ; 
+   height:15.625vw;/* 75/480*100 */ background-color:#556; }
+  h1{float: left;margin: auto;width: 48.958333vw;/*235/480*100*/min-width: 3vw; height: 9.375vw;/*45/480*100*/ min-height: 1vw;background-color: #fff; text-align:center;line-height:9.375vw ;
+    /*45/480*100*/ font-size: 1rem;}
+  .mgnb{float: right;width: 12.5vw;/*60/480*100*/ height: 9.375vw;/*45/480*100*/ background-color: #fff;text-align:center;line-height: 9.375vw;/*45/480*100*/ font-weight: bold;}
+
+
+#media{width:100%; height: 43.75vw;/* 280/480*100 */ background-color:#888;}
+#container{width: 100%;height: 116.666667vw; background-color: #555;}
+  .mainBox{width:100%; height:58.333333vw;/* 250/480*100 */ background-color:#333 ;}
+   .mainTitle{padding: 10px; width: 100% ; height:60px;
+              box-sizing: border-box;}
+     h3{margin: auto; width:140px; height: 28px;
+        background-color: #fff;text-align:center;line-height: 28px;}
+
+    #mainCon{padding: 0 7.5vw 0 7.5vw;/*36/480*100*/box-sizing: border-box;
+             width:100%;height: 220px;}
+    li .leftCon{display: block;float: left;width:35vw;/*168/480*100*/
+               height: 36.25vw;/*174/480x100*/
+                  background-color: #555;}
+        .ltl{line-height: 35px;}
+    li .rightCon{display: block;float: right;width:35vw;/*168/480*100*/           height: 36.25vw;/*174/480x100*/
+                  background-color: #555;}
+        .rtl{line-height: 35px;}
+
+  .conBox{width:100%; height:58.333333vw;/* 250/480*100 */ background-color:#ccc ;}
+
+#sectionBox{width:100%; height:52.0833vw;/* 600/480*100 */ background-color: #aaa;}
+#artBox{width: 100%; height:125vw;/* 600/480*100 */ background-color: #666;}
+#footBox{width:100%; height:72.9166;/* 350/480*100 */ background-color: #556;}
+
+
+} /*mobile 480px end==============================================*/

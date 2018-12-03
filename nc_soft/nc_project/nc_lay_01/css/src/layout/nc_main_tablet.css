@@ -1,0 +1,47 @@
+/*nc_main_tablet.css*/
+
+/*tablet 768px=====================================================*/
+@media screen and (min-width:481px) and (max-width: 768px){
+
+/*tablet common======================*/
+#gnb{display: block; width: 0; height: 0; overflow: hidden;position:relative; z-index: -100;}
+
+/*tablet common end====================*/
+
+#wrap{background-color: #ccc;}
+#headBox{ padding: 0 9.5052vw 0 23.4375vw;/*180/768x100*/ 
+         box-sizing:border-box;width: 100% ; 
+         height:9.765625vw;/*75/768x100*/ background-color:#556;}
+
+  h1{float: left;margin: auto;width: 50.78125vw;min-width: 3vw; 
+     height:9.375vw;/*72/768x100*/ min-height: 1vw;background-color: #fff; text-align:center;line-height: 9.375vw;/*72/768x100*/font-size: 1rem;}
+  .mgnb{float: right;width: 12.5vw; height: 9.375vw;/*727/68x100*/    background-color: #fff;text-align:center;line-height: 9.375vw;
+     /*72/768x100*/font-weight: bold;}
+#media{width:100%; height: 44.270833vw;/*340/768*100*/
+       background-color:#888;}
+
+#container{width: 100%;height: 560px; background-color: #555;}
+  .mainBox{width:100%; height: 280px; background-color:#333;}
+   .mainTitle{padding: 10px; width: 100% ; height:60px;
+              box-sizing: border-box;}
+     h3{margin: auto; width:140px; height: 28px;
+        background-color: #fff;text-align:center;line-height: 28px;}
+
+    #mainCon{padding: 0 4.6875vw 0 4.6875vw;/*36/768*100*/box-sizing: border-box;width:100%;height: 280px;/*280/768*100*/}
+    li .leftCon{display: block;float: left;width:38.802083vw;
+               /*298/768*100*/
+               height: 22.656vw;/*174/768x100*/
+               background-color: #555;}
+        .ltl{line-height: 4.9476vw;/*38/768*100*/}
+    li .rightCon{display: block;float: right;width:38.802083vw;
+                 /*298/768*100*/           
+                 height: 22.656vw;/*174/768x100*/
+                 background-color: #555;}
+        .rtl{line-height: 4.9476vw;/*38/768*100*/}
+
+  .conBox{width:100%; height:280px; background-color:#ccc;}
+
+#sectionBox{width:100%; height:;  background-color: #aaa;}
+#artBox{width: 100%; height:640px;  background-color: #666;}
+#footBox{width:100%; height:350px;  background-color: #556;}
+} /*tablet 768px end==============================================*/
