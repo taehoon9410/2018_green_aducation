@@ -1,0 +1,158 @@
+/*nc_main_labtop.css*/
+
+
+/*labtop 960px=====================================================*/
+@media screen and (min-width:769px) and (max-width: 1366px){
+/*laptop common   =========== */
+.mgnb,.view_indicator,.view_btn,#bring_btn{display: block; width: 0; height: 0; overflow: hidden;position:relative; z-index: -100;}
+/*laptop common end==========================================*/
+#wrap{background-color: #ccc;}
+#headBox{position: relative;
+         padding: 2.5vw 4.166666vw 2.5vw 4.166666vw;
+         /*24/960*100,40/960*100*/ 
+         box-sizing: border-box;
+         width: 100% ; height:12.5vw;/*120/960*100*/ background-color:#556;}
+
+  h1{float:left;margin: auto;width:13.020833vw;/*125/960*100*/ 
+     height:2.604166;/*25/960*100*/ text-align:center;
+     line-height: 7.5vw;/*72/960*100*/font-size: 2rem;background-color: #fff;}
+  #language{float: right;width: 4.375rem; height: 1.25rem;
+            text-align: center;font-weight: bold;font-size: 0.5rem; background-color: #fff;}
+  #gnb{position: absolute; bottom: 1.5rem;right: 4.166666vw;/*40/960*100*/float: right; width: 62.5vw;/*600/960*100*/ 
+       height:1.875rem;background-color: #ccc;}
+
+   #gnb>ul>li{display: block;float:left;padding:0.5rem;width: 20%; height: 100%;
+              border-right:0.0625rem solid #000; box-sizing: border-box;background-color: #fff;
+              text-align: center;font-weight: bold;font-size:0.75rem;} 
+
+     
+#media{width:100%; height: 65.625vw;/*630/960*100*/ background-color:#fff;}
+#container{position:relative;background-color: #555;}
+ #container>div{position: absolute;
+                top: -15.625rem;
+                 right: 50%;
+                 margin-right:-24.0312rem; }
+ #conWrap{width: 48.0625rem;max-width: 60rem; height: 31.25rem;}
+ /*mainBox area*/
+  .mainBox{float: left;width:50%;height:31.25rem; 
+           background-color:#333 ;}
+    .mainTitle{padding: 0.625rem; width: 100% ; height:3.75rem;
+              box-sizing: border-box;}
+     h3{margin: auto; width:8.75rem; height: 1.75rem;
+        background-color: #fff;text-align:center;line-height: 1.75rem;}
+
+    #mainCon{margin: auto;padding: 0 3.75vw 0 3.75vw;/*36/960*100*/box-sizing: border-box;width:100%;height:100%;}
+     
+    li .leftCon{display: block;margin: auto;
+                width:29.166666vw;/*300/960*100*/
+                min-width: 12.5rem;
+                max-width: 17.5rem;
+                height: 18.125vw;/*174/960*100*/max-height:12.5rem;
+                background-color: #888;margin-bottom: 1.25rem;}
+        .ltl{line-height: 2.1875rem;text-align:center;}
+
+    li .rightCon{display: block;margin: auto;
+                 width:29.166666vw;/*300/960*100*/
+                 min-width: 12.5rem;
+                 max-width: 17.5rem;
+                 height: 18.125vw;/*174/960*100*/max-height:12.5rem;
+                 background-color: #888;}
+        .rtl{line-height: 2.1875rem;text-align:center;}
+   
+/*conBox area*/
+  .conBox{float: right;width:50%;height:31.25rem; 
+          background-color:#ccc ;}
+  .conTitle{padding: 0.625rem; width: 100% ; height:3.75rem;
+            box-sizing: border-box;}
+     h3{margin: auto; width:8.75rem; height: 1.75rem;
+        background-color: #fff;text-align:center;line-height: 1.75rem;}
+
+    #contentCon{margin: auto;padding: 0 3.75vw 0 3.75vw;/*36/960*100*/box-sizing: border-box;width:100%;height:100%;}
+     
+    li .lCon{display: block;margin: auto;
+                width:29.166666vw;/*280/960*100*/
+                min-width: 12.5rem;
+                max-width: 17.5rem;
+                height: 18.125vw;/*174/960*100*/max-height:12.5rem;
+                background-color: #888;margin-bottom: 1.25rem;}
+        .lcl{line-height: 2.1875rem;text-align:center;}
+
+    li .rCon{display: block;margin: auto;
+                 width:29.166666vw;/*300/960*100*/
+                 min-width: 12.5rem;
+                 max-width: 17.5rem;
+                 height: 18.125vw;/*174/960*100*/max-height:12.5rem;
+                 background-color: #888;}
+        .rcl{line-height: 2.1875rem;text-align:center;}
+
+#sectionBox{padding:18.75rem 2.5rem 2.5rem 2.5rem;
+            box-sizing: border-box;
+            width:100%; 
+            height:83.333333vw;/*800/960*100*/min-height: 50rem;max-height: 60.5rem;
+            background-color: #aaa;}
+ #game_nav{padding-top:1.25rem; margin-bottom: 1.25rem;width: 100%; height: 12.5rem;}       
+    .gav{display: block;
+         text-align: center;
+         border-radius:0.625rem;
+         font-weight: bold; 
+         width:30%;/*283.333333/800*100*/
+         height:10rem;
+         background-color: #333;
+         color: #fff;}
+      .gav_01{float: left;}
+      .gav_02{float: left;margin-left:4.6875vw;/*45/960*100*/}
+      .gav_03{float: right;}
+                   
+  .banner_wrap{padding:2.604166vw 3.125vw 0 3.125vw;/*25/960*100,30/960*100*/ box-sizing: border-box; 
+               width: 100%; 
+               height: 26.041666vw;/*250/960*100*/min-height:12.5rem; 
+               background-color: #ccc;}
+   .allBan{display: block;
+           text-align: center;
+           border-radius:10rem;
+           font-weight: bold; 
+           line-height: 6.25rem;
+           width:20.833333vw;/*200/960*100*/
+           height:20.833333vw;/*200/960*100*/
+           background-color: #fff;
+           color: #000;}
+      .banner_01{float: left;}
+      .banner_02{float: left;margin-left:12vw ;/*115.2/960*100*/}
+      .banner_03{float: right;}
+                   
+#artBox{padding:0 2.5rem 0 2.5rem;box-sizing: border-box;width: 100%; height:37.5rem;  background-color: #ccc;}
+  #artWrap{width: 100%; height: 100%;
+           background-color: #ccc;}
+  .artTitle{padding: 0.625rem;box-sizing: border-box; width: 100% ; height:10%;}
+  h3{margin: auto; width:8.75rem; height: 1.75rem;
+     background-color: #fff;text-align:center;line-height: 1.75rem;}
+  #newsBox{margin-bottom: 2.5rem;width:100%; height: 12.5rem;
+          background-color:#ccc; }
+   li .news_01{display: block;float: left;width:41.666666vw ;/*400/960*100*/ height:12.5rem ;}
+   li .news_02{display: block;float: right;width:41.666666vw ;/*400/960*100*/ height:12.5rem ;}
+  #pressBox{width:100%; height: 12.5rem;background-color:#ccc }
+   li .press_01{display: block;float: left;width:41.666666vw ;/*400/960*100*/ height:12.5rem ;}
+   li .press_02{display: block;float: right;width:41.666666vw ;/*400/960*100*/ height:12.5rem ;}
+    
+  
+
+
+#footBox{padding:0 2.5rem 0 2.5rem;box-sizing: border-box;width:100%; height:18.75rem;  background-color: #556;}
+ #footerWrap{padding-top: 1.25rem;box-sizing: border-box; 
+             width:100%; height: 100%; background-color: #556;}
+  #footerWrap div{margin-bottom: 1.25rem;}
+    .family_site{margin-top: 0.9375rem ;float: right;width: 12.5rem; height: 1.875rem; background-color: #fff;
+                 line-height: 1.875rem;text-align: center;font-weight: bold;}
+      .family_btn{float: right;width:20%; height: 100%; 
+                   background-color: #888;line-height: 1.875rem;text-align: center;font-weight: bold; } 
+    .footer_logo{width: 14.6875rem;height:2.8125rem;background-color: #fff;line-height: 2.8125rem;
+                 text-align: center;font-weight: bold; }                
+    .footer_info{float:left;width: 26.25rem;height: 5rem;}
+    .sns_link{float: right;margin-top:1.25rem;width: 9.375rem; height: 2.5rem;background-color: #556;} 
+      .sns_link>ul>li{display: block;float: left;
+                      width:2.5rem ;height:2.5rem; 
+                      background-color: #fff;text-align: center;border-radius: 1.25rem;} 
+           .fb{margin: 0 0.9375rem 0 0.9375rem;}   
+   .copy_r{float: right;margin-top:1.25rem ; width: 100%; height: 1.25rem; font-size: 0.125rem;text-align: center;}
+  
+} /*labtop 960px end==============================================*/

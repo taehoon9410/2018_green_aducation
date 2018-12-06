@@ -13,10 +13,11 @@
 #headBox{padding: 2.5vw/*10/480*100*/7.083333vw 2.5vw 25.625vw
         /*123/408*100*/; box-sizing: border-box;width: 100% ; 
    height:15.625vw;/* 75/480*100 */ background-color:#556; }
-  h1{float: left;margin: auto;width: 48.958333vw;/*235/480*100*/min-width: 3vw; height: 9.375vw;/*45/480*100*/ min-height: 1vw;background-color: #fff; text-align:center;line-height:9.375vw ;
+  h1{float: left;margin: auto;width: 48.958333vw;/*235/480*100*/max-width:48.958333vw;/*235/480*100*/ height: 9.375vw;/*45/480*100*/ max-height:9.375vw;/*45/480*100*/background-color: #fff; text-align:center;line-height:9.375vw ;
     /*45/480*100*/ font-size: 1rem;}
-  .mgnb{float: right;width: 12.5vw;/*60/480*100*/ height: 9.375vw;/*45/480*100*/ background-color: #fff;text-align:center;line-height: 9.375vw;/*45/480*100*/ font-weight: bold;}
-
+  .mgnb{float: right;width: 12.5vw;/*60/480*100*/ height: 9.375vw;/*45/480*100*/ 
+       background-color: #fff;text-align:center;line-height: 9.375vw;/*45/480*100*/ font-weight: bold;}
+    
 
 #media{width:100%; height: 43.75vw;/* 280/480*100 */ background-color:#888;}
 #container{width: 100%;height: 116.666667vw; background-color: #555;}
