@@ -19,7 +19,6 @@
          7.083333vw 2.5vw 25.625vw/*123/408*100*/; 
          box-sizing: border-box;width: 100% ; 
    height:15.625vw;/* 75/480*100 */ background-color:#556; }
-<<<<<<< HEAD
   h1{float: left;margin: auto;width: 48.958333vw;/*235/480*100*/max-width:48.958333vw;/*235/480*100*/ 
     height: 9.375vw;/*45/480*100*/ max-height:9.375vw;/*45/480*100*/
     background-color: #fff; text-align:center;line-height:9.375vw ;
@@ -27,23 +26,16 @@
   .mgnb{float: right;width: 12.5vw;/*60/480*100*/ height: 9.375vw;/*45/480*100*/ 
        background-color: #fff;text-align:center;line-height: 9.375vw;/*45/480*100*/ font-weight: bold;}
  
-=======
-  h1{float: left;margin: auto;width: 48.958333vw;/*235/480*100*/max-width:48.958333vw;/*235/480*100*/ height: 9.375vw;/*45/480*100*/ max-height:9.375vw;/*45/480*100*/background-color: #fff; text-align:center;line-height:9.375vw ;
-    /*45/480*100*/ font-size: 1rem;}
-  .mgnb{float: right;width: 12.5vw;/*60/480*100*/ height: 9.375vw;/*45/480*100*/ 
-       background-color: #fff;text-align:center;line-height: 9.375vw;/*45/480*100*/ font-weight: bold;}
-    
->>>>>>> 364537ad26c969eb47734b9de6a567bfec46870a
 
 #media{width:100%; height: 43.75vw;/* 280/480*100 */ background-color:#888;}
 #container{width: 100%;height: 116.666667vw; background-color: #555;}
-  .articleBox{width:100%; height:58.333333vw;/* 250/480*100 */ background-color:#333 ;}
-   .articleTitle{padding: 0.625rem; width: 100% ; height:3.75rem;
+  .mainBox{width:100%; height:58.333333vw;/* 250/480*100 */ background-color:#333 ;}
+   .mainTitle{padding: 0.625rem; width: 100% ; height:3.75rem;
               box-sizing: border-box;}
      h3{margin: auto; width:8.75rem; height: 1.75rem;
         background-color: #fff;text-align:center;line-height: 1.75rem;}
 
-    #articleCon{padding: 0 7.5vw 0 7.5vw;/*36/480*100*/box-sizing: border-box;
+    #mainCon{padding: 0 7.5vw 0 7.5vw;/*36/480*100*/box-sizing: border-box;
              width:100%;height: 13.75rem;}
     li .leftCon{display: block;float: left;width:35vw;/*168/480*100*/
                height: 36.25vw;/*174/480x100*/
@@ -54,7 +46,9 @@
                   background-color: #555;}
         .rtl{line-height: 2.1875rem;}
 
-       .conBox{width:100%; height:58.333333vw;/*250/480*100 */
+
+
+  .conBox{width:100%; height:58.333333vw;/*250/480*100 */
           background-color:#ccc;}
 
   .conTitle{padding: 0.625rem; width: 100% ; height:20%;

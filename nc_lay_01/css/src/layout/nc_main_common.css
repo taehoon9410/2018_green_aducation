@@ -4,7 +4,6 @@
 /*commonArea===============================================*/
 
 #wrap{width: 100%; height: auto ; min-height:10rem;background-color: #ccc;}
-<<<<<<< HEAD
 #headBox{width: 100% ; height:7.5rem; background-color:#556;  }
 #media{width:100%; height: 48.75rem;background-color: #888;}
    
@@ -52,20 +51,3 @@
 #sectionBox{background-color: #aaa;}
 #artBox{background-color: #fff;}
 #footBox{width:100%; height:10.625rem; background-color: #556;}
-=======
-#headBox{width: 100% ; height:120px; background-color:#556;  }
-#media{width:100%; height: 780px;background-color: #888;}
-#container{width: 100%; height: auto; background-color: #555;
-           clear: both}
- 
-     li .leftCon{display: block;float: left;background-color: #555;}
-        .ltl{width: 100%;height:20%;background-color: #999;
-             font-weight: bold; text-align:center;}
-    li .rightCon{display: block;float: right;background-color: #555;}
-        .rtl{width: 100%;height:20%;background-color: #999;
-             font-weight: bold; text-align:center;}
-  
-#sectionBox{width:100%; height:1200px; background-color: #aaa;}
-#artBox{width: 100%; height:420px; ;background-color: #666;}
-#footBox{width:100%; height:170px; background-color: #556;}
->>>>>>> 364537ad26c969eb47734b9de6a567bfec46870a
