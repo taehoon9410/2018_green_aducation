@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<!-- myfile.html -->
+<!-- inner_content_01.html.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-<!--   <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-cale3.0,minmum-scale=0.5"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-cale3.0,minmum-scale=0.5">
 
 <!-- normal -->
-  <link rel="stylesheet" href="../css/base/reset.css" />
-  <link rel="stylesheet" href="../css/base/common.css" />
+  <link rel="stylesheet" href="../../css/base/reset.css" />
+  <link rel="stylesheet" href="../../css/base/common.css" />
  <!-- normal end-->
-<!--  <link rel="stylesheet" href="../css/src/.css" /> -->
+ <link rel="stylesheet" href="../../css/src/inner_content_01.css" />
   <!-- 조건부주석 - cc:ie6 -->
  <!--   [if lte ie 9]>
  <script src = "../ie/htmle5shiv/dist/html5shiv.min.js"></script>
@@ -36,21 +36,33 @@
   <!-- link:favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
 
-    <title>jQuery</title>
+    <title>html을 jquery를 통해 생성및 처리하기</title>
 </head>
 <body>
   <!-- layout -->
-  <div id="wrap">
-    <h1>jquery의 간단한 내용과 웹페이지의 자세한 내용을 알아봅시다</h1>
-    <li><a href="./jquery_01.html/selector_01.html">jquery선택자</a></li>
-    <li><a href="./jquery_01.html/slide_banner_02.html">slide_banner</a></li> 
-    <li><a href="./jquery_01.html/inner_content_01.html">이너 컨텐트</a></li>
-  </div>
+ <div id="wrap">
+   <header id="headBox">
+     <h1>html을 jquery를 통해 생성및 처리하기</h1>
+   </header>
+  <section id="viewBox">
+   <h2>광고영역</h2>  
+  </section>
+  <article id="conBox">
+    <h2>무언가 내용영역</h2>
+  </article>
+
+  <footer id = "footBox">
+    <h2>회사 정보 영역</h2>
+  </footer>
+
+
+
+ </div>
   
 
   <!-- script(jQuery) -->
-  <script src="../js/base/jquery-3.3.1.min.js"></script>
-  <script src="../js/base/jquery-ui.min.js"></script>
-
+  <script src="../../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../../js/base/jquery-ui.min.js"></script>
+  <script src="../../js/src/inner_content_01.js"></script>
 </body>
 </html>
