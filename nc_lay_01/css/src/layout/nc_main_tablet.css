@@ -30,13 +30,13 @@
        background-color:#888;}
 
 #container{width: 100%;height: 35rem; background-color: #555;}
-  .mainBox{width:100%; height: 17.5rem; background-color:#333;}
-   .mainTitle{padding: 0.625rem; width: 100% ; height:3.75rem;
+  .articleBox{width:100%; height: 17.5rem; background-color:#333;}
+   .articleTitle{padding: 0.625rem; width: 100% ; height:3.75rem;
               box-sizing: border-box;}
      h3{margin: auto; width:8.75rem; height: 1.75rem;
         background-color: #fff;text-align:center;line-height: 1.75rem;}
 
-    #mainCon{padding: 0 4.6875vw 0 4.6875vw;/*36/768*100*/
+    #articleCon{padding: 0 4.6875vw 0 4.6875vw;/*36/768*100*/
             box-sizing: border-box;width:100%;height: 17.5rem;/*280/768*100*/}
      li .leftCon{display: block;float: left;width:38.802083vw;
                /*298/768*100*/
