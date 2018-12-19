@@ -14,6 +14,8 @@ subColor3   : #333333
 
 subColor4   : #1f3263
 
+subColor5  : #33394c
+
 textColor1  : #d8b17e
 
 textColor2  : #ffffff
@@ -44,7 +46,10 @@ fontFamily : 나눔고딕
 fontSize(h1)    :  30px
 fontSize(h2)    :  20px
 fontSize(h3)    :  28px
-fontSize(p)     :  15px
+fontSize(p1)     :  15px
+
+fontSize(p2)     :  12px
+
 fontSize(point) : 15px
 단, 일부 디자인내용을 따를 수 있다.
 
