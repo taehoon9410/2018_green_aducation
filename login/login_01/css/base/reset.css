@@ -1,0 +1,30 @@
+/*@charset "UTF-8";
+<!-- reset css -->
+  html,body{margin: 0; width: 100%; height: 100%;}
+  h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dt,dd,dl{margin: 0; padding: 0;}
+  ul,ol,li{list-style: none}
+ a{color:#000; text-decoration:none;}
+  a:hover, a:focus{color:#50f; text-decoration:underline;
+    outline:3px solid #50f;}
+header,nav,aside,section,article,footer,main,figure{display:block;}
+     /* common.css*/
+/*     .hidden{display:block;width: 0; height: 0; overflow: hidden; position:absolute; z-index: -100;}
+    .clearfix::after,.clearfix:after{content:""; display:block; width:0; height: 0; clear:both;}*/
+
+
+
+    html, body {width: 100%; height:100% ; margin: 0; padding: 0; background-color:#fff;
+    font-family: "mariad pro",arial,dotum,sans-serif; font-weight: normal;font-style: normal;line-height: 1.2;color: #333}/*font:bold italic 1rem/1.2:myriad pro;}*/
+
+    h1,h2,h3,h4,h5,h6,p,pre,div,ul,ol,li,dl,dt,dd,img{margin: 0;padding: 0;border: 0;outline: 0}
+    ul,ol,li{list-style:none;}
+    a{text-decoration: none; color: #f06}
+    a:hover,a:focus{color:#fa0;}
+    a:focus{outline: 3px solid #fa0,outline-offset:3px;position: relative;z-index: 500;}
+    br{width: 0 ; height: 0; display: block;font-size: 0;}
+    hr{border-bottom: 1px solid #333 ; margin: 0; padding: 0; width: 100%}
+    abbr{text-decoration: none;}
+    address{font-style: normal;}
+    
+
+    header,nav,section,article,aside,footer,main,figure,figcaption{display: block;}
