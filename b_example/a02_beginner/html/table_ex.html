@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- table_ex.html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Compatible" content="IE=edge">
+
+    
+    <link rel="stylesheet" href="../css/base/common.css" />
+    <link rel="stylesheet" href="../css/base/reset.css" />
+
+    <title>table_ex.html</title>
+
+    <style>
+    h1{text-align: center;}
+    fieldset{border: 0}
+      #wrap{margin: auto;width: 700px; height: auto;}
+      .pw_w{font-size: 12px;}
+        table,th,td{
+        border: 1px solid #ccc;
+        border-spacing: 0; border-collapse: collapse;
+      }
+      .box_2{width: 120px;margin: auto; }
+    </style>
+
+  </head>
+  <body>
+    <!-- layout -->
+
+  <div id="wrap">
+    <h1>회원가입</h1>
+    <div class="box_01">
+      <h2 class="hidden">table form 입력</h2>
+    <form action="#" method="post">
+    <fieldset>
+     <table>
+      <legend class="hidden">회원가입</legend>
+      <caption class="hidden">테이블</caption>
+      <tr>
+      <th><label for="id">아이디</label></th>
+        <td>
+          <input type="text" name="id" id="id" value=""
+           required="required" />
+          <label for="dp"><span class="hidden">중복체크</span></label>
+          <input type="button" name="dp" id="dp" value="중복체크" 
+           required="required" />
+        </td>
+          <td></td>
+      </tr>
+    
+      <tr>           
+         <th><label for="names">이름</label></th>
+         <td><input type="text" name="names" id="names" value=""
+              required="required" /></td>
+         <td></td>
+      </tr>
+      
+    <tr>
+      <th>성별</th>
+      <td><input type="radio" id="jd" name="jd" value="남">
+          <label for="jd">남</label>
+          <input type="radio" id="jd" name="jd" value="여">
+          <label for="jd">여</label>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th>암호</th>
+      <td>
+        <label for="pw_01"></label>
+        <input type="password" id="pw_01" name="pw_01" value=""
+        required="required" />
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>암호확인</th>
+       <td> 
+        <label for="pw_02"></label>
+        <input type="password" id="pw_02" name="pw_02" value=""
+         required="required" />
+      </td>
+      <td><p class="pw_w">*같은암호를 입력하세요</p></td>
+    </tr>
+    <tr>
+      <th>이메일</th>
+    <td>
+      <label for="emailEnter"></label>
+      <input type="text" id="emailEnter" name="emailEnter" value="" required="required" />
+      @
+      <input type="text" id="emailEnter_02" name="emailEnter_02" value="" required="required" />
+     </td>
+     <td>
+        <label for="mail_list"></label>
+        <select name="mail_list" id="mail_list">
+           <optgroup label="선택">
+             <option value="naver">naver.com</option>
+            <option value="google">gmail.com</option>
+            <option value="daum">daum.net</option>
+            <option value="nate">nate.com</option>
+           </optgroup>
+            
+       </select>
+     </td>
+    </tr>
+    <tr>
+      <th>주소</th>
+    <td>
+       <label for="adress_00"><span class="hidden">
+       주소 입력 영역</span></label>
+       <input type="adress" name="adress" id="adress" value=""
+       required="required" />
+       <label for="dp"><span class="hidden">주소찾기</span></label>
+       <input type="button" name="dp" id="dp" value="주소찾기" 
+       required="required" />
+    </td>
+    <td></td>
+    </tr>
+    <th rowspan="2">휴대폰</th>
+    <td>
+      <input type="radio" id="tc" name="tc" value="SKT">
+      <label for="tc">SKT</label>  
+      <input type="radio" id="tc" name="tc" value="KT">
+      <label for="tc">KT</label>
+      <input type="radio" id="tc" name="tc" value="LGU+">
+      <label for="tc">LGU+</label>
+    </td>
+    <td></td>
+   <tr>
+   <!--  <th></th> 숨은 th -->
+    <td>
+        
+        <label for="pnumber_head"></label>
+        <select name="pnumber_head" id="pnumber_head">
+           <optgroup label="======">
+             <option value="010">010</option>
+            <option value="011">011</option>
+            <option value="019">019</option>
+            <option value="001">001</option>
+           </optgroup>
+            
+       </select> -
+     
+      <input type="tel" id="pnumber_mid" name="pnumber_mid" value="">
+      <label for="pnumber_mid"><span class="hidden">nember_mid</span></label>-
+      <input type="tel" id="pnumber_fn" name="pnumber_fn" value="">
+      <label for="pnumber_fn"><span class="hidden">nember_fn</span></label>
+    </td>
+    <td></td>
+   </tr>
+
+   <tr>
+     <th>관심</th>
+    <td>
+     <input type="checkbox" id="checkbox_01" name="checkbox_01" value="쇼핑" >
+     <label for="checkbox_01">쇼핑</label>
+     <input type="checkbox" id="checkbox_01" name="checkbox_02" value="게임" >
+     <label for="checkbox_02">게임</label>
+     <input type="checkbox" id="checkbox_01" name="checkbox_03" value="여행" >
+     <label for="checkbox_03">여행</label>
+     <input type="checkbox" id="checkbox_01" name="checkbox_04" value="기타" >
+     <label for="checkbox_04">기타</label>
+    </td>
+    <td></td>
+   </tr>   
+   <tr>
+    <th>자기소개</th>
+    <td colspan="2">
+      <label for="int_txt"><span class="hidden">자기소개작성 영역</span></label>
+      <textarea name="" id="" cols="50" rows="10">
+        
+      </textarea>    
+    </td> 
+      
+   </tr>    
+   <tr>
+     
+   </tr>
+  
+    </table>
+      <div class="box_2">
+        <label for="submit_btn"><span class="hidden">확인 버튼</span></label>
+       <input type="submit" id="submit_btn" name="submit_btn" value="확인">
+       <label for="reset_btn"><span class="hidden">다시입력 버튼</span></label>
+       <input type="reset" id="reset_btn" name="reset_btn" value="다시입력">
+      </div>
+
+  </fieldset>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- script(jQuery) -->
+  <!--   <script src="../js/base/jquery-3.3.1.min.js"></script>
+    <script src="../js/base/jquery-ui.min.js"></script>
+    <script src="../js/src/file name.js"></script> -->
+     
+  </body>
+</html>
