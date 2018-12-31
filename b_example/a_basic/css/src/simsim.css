@@ -1,0 +1,36 @@
+/*simsim.css*/
+#clock{position: absolute;right: 15%;top:40px;
+  ;z-index: 30}
+
+#wrap{margin:auto ;height:600px;width:960px;}
+#sky_bg{position: relative;height: 400px; width:auto; background-color: #4af}
+#ground{position: relative;height: 200px;  width: 100% ;background-color: #2f5;}
+.house_top{position: absolute;right: 20%;bottom: 80%;
+width: 0px;
+height: 0px;
+border-top: 80px solid transparent;
+border-bottom: 80px solid #fa0;
+border-left: 80px solid transparent;
+transform: rotate(225deg);}
+.house_body{position: absolute;padding-top: 20px;box-sizing: border-box; right: 154px;bottom: 59%;
+  width: 100px;height:150px;background-color: #f0510b }
+
+  .window_01{margin:auto;width:40px; height: 40px; background-color: #ccf;
+             border: 5px solid #555;box-sizing: border-box;}
+  .door_01{position: absolute;bottom: 0;right: 29px;border-bottom: 10px solid #772;box-sizing: border-box;margin: auto;background-color: #333;width:40px; height: 60px; border-top-left-radius:20px;border-top-right-radius:20px;}
+
+  /*cloud css==================================================*/
+.cloud_box1{position: absolute;left: 30%;top:60px;width: 125px; height: 60px;
+    background-image: url(../../img/cloud.png);
+    background-repeat: no-repeat;
+    animation-name:moveCloud;animation-duration:130000ms;
+    animation-iteration-count: infinite;animation-timing-function: linear;}
+
+  @keyframes moveCloud{
+  from{transform: translate(0);}
+  to{transform:translate(-30rem);}
+
+  .cloud_box2{position:absolute;right: 30%;top:80px;z-index: 100;background-color: #fff;width: 125px; height: 60px;background-image: url(../../img/cloud.png);}
+  .pan{width: 200px; height: 200px;
+        background-image: url(../../img/pan.png);
+        background-repeat: no-repeat;}
